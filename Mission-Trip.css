@@ -1,0 +1,92 @@
+body {margin: 0px;
+height: 110svh;;}
+
+html, body {
+    height: 100%;
+    overflow-y: auto; /* Allow scrolling */
+}
+
+:root {/* CSS HEX */
+    --white: #fefffeff;
+    --mint-green: #e5fcf5ff;
+    --dark-purple: #210124ff;
+    --claret:rgba(65, 9, 9, 0.856);}
+
+#Textheader {display: grid;
+    justify-content: center;
+    
+    color: black;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+            font-style: normal}
+
+#Header {background-color:var(--claret) ;
+    
+    position: sticky;
+    top: 0;
+    
+    justify-content: center;
+    z-index: 10000;
+    padding: 10px;} 
+
+
+    #Holdlink {
+        display: flex;
+        justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+        }
+
+    .sneak {
+        color: var(--white);
+        justify-content: flex-start;}
+    
+        .pookie { color: var(--white);
+        justify-content: center;}
+    
+        .out { color: var(--white);
+        justify-content: right;}
+
+#Heh {width: 50%;            
+    margin: auto; 
+         
+    padding: 8px;          
+    text-align: center;
+line-height: 1.5;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+.bold   {font-weight: bold;
+}
+
+ul { font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;}
+
+    #Touches { font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+
+    }
+
+    footer{background-color: var(--claret);
+    
+        display: grid;
+        margin: 0%;
+    
+    }
+    #yyes { 
+        color:  white;
+        text-align: center; 
+        display: grid; 
+        justify-content: center; 
+        align-items: center; 
+        width: 100%; 
+        padding: 10px 0px; }
+    
